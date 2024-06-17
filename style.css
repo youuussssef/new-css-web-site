@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+main {
+    padding: 2em;
+}
+
+.country {
+    margin-bottom: 2em;
+}
+
+.country h2 {
+    color: #4CAF50;
+}
+
+.country img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    font-size: 1em;
+    margin-top: 0.5em;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.7em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
